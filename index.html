@@ -9,7 +9,6 @@
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script> 
 </head>
 <body>
   <main>
@@ -21,6 +20,8 @@
         <form>
             <input type="email" id="email" name="Email" placeholder="Your Email Adress.." class="Email" required>
             <input type="submit" class="Notify_Button"  value="Notify Me">
+            <div class="valid_mail" hidden="true">This Email is valid</div>
+            <div class="invalid_mail" hidden="true">This Email is invalid</div>
         </form>
             </div>
             <div class="Social_Icons">
@@ -38,5 +39,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="script.js"></script> 
 </body>
 </html>

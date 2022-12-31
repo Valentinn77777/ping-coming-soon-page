@@ -65,6 +65,11 @@ strong {
     margin-top: 2rem;
 }
 
+.mail_validator:hover {
+    display: left;
+    justify-content: center;
+}
+
 .Notify_Button {
     color: rgb(255, 255, 255);
 
@@ -95,22 +100,37 @@ strong {
 }
 
 .Social_Icons {
-    height: 1.2rem;
-    width: 1.2rem;
+    height: 1.8rem;
+    width: 1.8rem;
 
     display: flex;
     justify-content: center;
     gap: 0.7rem;
 
-    Background: none;
-    Border: 1px solid hsl(0, 0%, 59%);
-    Border-radius: 50%;
-    padding: 5px;
-
     margin: 0 auto;
     margin-top: 17rem;
 }
 
+.Facebook_Icon {
+    Background: none;
+    Border: 1px solid hsl(0, 0%, 59%);
+    Border-radius: 50%;
+    padding: 5px;
+}
+
+.Twitter_Icon {
+    Background: none;
+    Border: 1px solid hsl(0, 0%, 59%);
+    Border-radius: 50%;
+    padding: 5px;
+}
+
+.Instagram_Icon {
+    Background: none;
+    Border: 1px solid hsl(0, 0%, 59%);
+    Border-radius: 50%;
+    padding: 6px;
+}
 
 
 .footer {
